@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TI de Bolso #{{NUMERO}}</title></head>
+<body style="margin:0;padding:0;background:#EEF2F8;">
+<!-- MODELO "TI de Bolso" — newsletter semanal da iTease para os usuários dos clientes.
+     O agente troca tudo que está entre {{ }}. Tabela de 600 px, estilos inline (compatível com Outlook e Gmail). -->
+<div style="display:none;max-height:0;overflow:hidden;">{{PRE_CABECALHO}}</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#EEF2F8;"><tr><td align="center" style="padding:24px 12px;">
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:100%;background:#FFFFFF;border-radius:16px;overflow:hidden;font-family:Arial,Helvetica,sans-serif;color:#1E293B;">
+
+  <!-- Cabeçalho -->
+  <tr><td style="background:#0B1020;padding:26px 32px 22px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+      <td style="font-family:'Courier New',monospace;font-size:12px;letter-spacing:3px;color:#22D3EE;">// TI DE BOLSO · EDIÇÃO #{{NUMERO}}</td>
+      <td align="right"><img src="https://raw.githubusercontent.com/RobertSoaresiTease/itease-artes/main/marca/logo-branco.png" alt="iTease" height="22" style="display:block;border:0;height:22px;"></td>
+    </tr></table>
+    <div style="font-size:30px;line-height:1.15;font-weight:800;color:#FFFFFF;margin-top:16px;">{{TITULO_DA_EDICAO}}</div>
+    <div style="font-size:15px;line-height:1.5;color:#B8C3DA;margin-top:8px;">2 minutos de leitura · toda quarta, 8h</div>
+    <div style="height:6px;width:120px;border-radius:3px;background:#22D3EE;margin-top:16px;"></div>
+  </td></tr>
+
+  <!-- Resposta do desafio passado (gancho de continuidade) -->
+  <tr><td style="padding:24px 32px 4px;">
+    <div style="background:#ECFEFF;border:1px solid #A5F3FC;border-radius:12px;padding:14px 16px;font-size:14px;line-height:1.5;">
+      <b style="color:#0891B2;">✅ Resposta do desafio da semana passada:</b> {{RESPOSTA_DESAFIO_ANTERIOR}}
+    </div>
+  </td></tr>
+
+  <!-- Dica rápida -->
+  <tr><td style="padding:20px 32px 0;">
+    <div style="font-family:'Courier New',monospace;font-size:12px;letter-spacing:2px;color:#0891B2;">💡 DICA RÁPIDA</div>
+    <div style="font-size:19px;font-weight:700;margin:6px 0 6px;color:#0B1A33;">{{DICA_TITULO}}</div>
+    <div style="font-size:15px;line-height:1.6;color:#334155;">{{DICA_TEXTO}}</div>
+  </td></tr>
+
+  <!-- Golpe da semana -->
+  <tr><td style="padding:22px 32px 0;">
+    <div style="background:#FFF7ED;border-left:4px solid #FB923C;border-radius:8px;padding:14px 16px;">
+      <div style="font-family:'Courier New',monospace;font-size:12px;letter-spacing:2px;color:#EA580C;">🚨 GOLPE DA SEMANA</div>
+      <div style="font-size:17px;font-weight:700;margin:6px 0;color:#0B1A33;">{{GOLPE_TITULO}}</div>
+      <div style="font-size:15px;line-height:1.6;color:#334155;">{{GOLPE_TEXTO}}</div>
+    </div>
+  </td></tr>
+
+  <!-- Curiosidade -->
+  <tr><td style="padding:22px 32px 0;">
+    <div style="font-family:'Courier New',monospace;font-size:12px;letter-spacing:2px;color:#7C3AED;">🤓 VOCÊ SABIA?</div>
+    <div style="font-size:15px;line-height:1.6;color:#334155;margin-top:6px;">{{CURIOSIDADE}}</div>
+  </td></tr>
+
+  <!-- Atalho da semana -->
+  <tr><td style="padding:22px 32px 0;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#0B1020;border-radius:12px;"><tr><td style="padding:16px 18px;">
+      <div style="font-family:'Courier New',monospace;font-size:12px;letter-spacing:2px;color:#22D3EE;">⌨️ ATALHO DA SEMANA</div>
+      <div style="font-size:22px;font-weight:800;color:#FFFFFF;margin:6px 0 4px;">{{ATALHO_TECLAS}}</div>
+      <div style="font-size:14px;line-height:1.5;color:#B8C3DA;">{{ATALHO_O_QUE_FAZ}}</div>
+    </td></tr></table>
+  </td></tr>
+
+  <!-- Desafio da semana (a resposta só sai na próxima edição) -->
+  <tr><td style="padding:22px 32px 0;">
+    <div style="border:2px dashed #8B5CF6;border-radius:12px;padding:16px 18px;">
+      <div style="font-family:'Courier New',monospace;font-size:12px;letter-spacing:2px;color:#7C3AED;">🧩 DESAFIO DA SEMANA</div>
+      <div style="font-size:16px;font-weight:700;margin:6px 0 8px;color:#0B1A33;">{{DESAFIO_PERGUNTA}}</div>
+      <div style="font-size:15px;line-height:1.7;color:#334155;">{{DESAFIO_ALTERNATIVAS}}</div>
+      <div style="font-size:13px;color:#64748B;margin-top:8px;">A resposta sai na próxima quarta. 😉</div>
+    </div>
+  </td></tr>
+
+  <!-- Spoiler da próxima edição -->
+  <tr><td style="padding:22px 32px 26px;">
+    <div style="font-size:14px;line-height:1.5;color:#334155;"><b>👀 Na próxima edição:</b> {{SPOILER_PROXIMA}}</div>
+  </td></tr>
+
+  <!-- Rodapé -->
+  <tr><td style="background:#F1F5F9;padding:20px 32px;font-size:12px;line-height:1.6;color:#64748B;">
+    Você recebe o <b>TI de Bolso</b> porque a sua empresa é cliente da <b>iTease</b> e cuida da TI com a gente.<br>
+    Precisa de suporte? <b>(19) 3935-6234</b> · suporte pelos canais de sempre · <a href="https://www.itease.com.br" style="color:#0891B2;">itease.com.br</a><br>
+    iTease Serviços de TI · Torre Corporate – R. das Orquídeas, 737, sala 208 – Indaiatuba/SP<br>
+    {{LINK_DESCADASTRO}}
+  </td></tr>
+
+</table>
+</td></tr></table>
+</body></html>
