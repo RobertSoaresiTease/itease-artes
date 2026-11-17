@@ -7,3 +7,8 @@ Artes públicas das redes sociais da iTease (Marketing IA).
 
 Este repositório é público de propósito: o Instagram só aceita imagens em link público.
 Não coloque aqui nada que não possa ser público.
+
+## Fotos
+Lâminas podem usar `"foto": "arquivo.jpg"`: a foto precisa estar em `fotos/arquivo.jpg` deste repositório
+(copiada da pasta SharePoint "Marketing IA/10 Fotos", redimensionada para no máximo 1600 px, JPEG qualidade 85).
+`"foto_modo": "recorte"` mostra a foto num quadro no canto em vez de fundo inteiro (padrão em lâminas "item").
