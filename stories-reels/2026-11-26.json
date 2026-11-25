@@ -1,0 +1,96 @@
+{
+  "semana": "2026-11-23",
+  "stories": [
+    {
+      "data": "2026-11-26",
+      "horario": "09:00",
+      "tag": "Black Friday",
+      "titulo": "Amanhã é *Black Friday.*",
+      "texto": "O golpe mais comum da semana: link falso de oferta por WhatsApp e SMS.\n\nAo meio-dia tem Reel novo com o truque para descobrir antes de clicar."
+    },
+    {
+      "data": "2026-11-26",
+      "horario": "12:30",
+      "tag": "Reel novo",
+      "titulo": "O truque dos *3 segundos.*",
+      "texto": "Como saber se um link é de verdade antes de clicar.\n\nJá está no nosso perfil: *assista e salve.*"
+    },
+    {
+      "data": "2026-11-26",
+      "horario": "17:30",
+      "tag": "Blog iTease",
+      "titulo": "Vai comprar *notebook* para a empresa?",
+      "texto": "Confira antes:\n*Windows 11 Pro*, garantia no local e 16 GB de RAM.",
+      "destaque": "itease.com.br/blog"
+    },
+    {
+      "data": "2026-11-27",
+      "horario": "09:00",
+      "tag": "Black Friday",
+      "titulo": "Famoso com desconto? *Pode ser IA.*",
+      "texto": "Vídeos falsos de famosos com preço baixo levam a sites de golpe.\n\nConfira a oferta no *site ou app oficial* da loja."
+    },
+    {
+      "data": "2026-11-27",
+      "horario": "12:30",
+      "tag": "Atalho do dia",
+      "titulo": "Print de um *pedaço* da tela",
+      "texto": "Ótimo para guardar comprovante de compra.",
+      "destaque": "Win + Shift + S"
+    },
+    {
+      "data": "2026-11-27",
+      "horario": "17:30",
+      "tag": "iTease",
+      "titulo": "Sua TI trabalha *antes* ou *depois* do problema?",
+      "texto": "Fale com a gente e agende um diagnóstico de TI para a sua empresa.",
+      "destaque": "(19) 3935-6234\nitease.com.br"
+    }
+  ],
+  "reels": [
+    {
+      "data": "2026-11-26",
+      "horario": "12:00",
+      "tag": "Black Friday",
+      "segundos_por_cena": 3.2,
+      "cenas": [
+        {
+          "titulo": "Black Friday é *amanhã.*",
+          "texto": "Antes de clicar em qualquer oferta, faça este teste de 3 segundos."
+        },
+        {
+          "titulo": "1 · Passe o mouse *no link.*",
+          "texto": "No celular, segure o dedo sobre ele. O endereço real aparece antes de abrir."
+        },
+        {
+          "titulo": "2 · Leia o *final* do endereço.",
+          "texto": "O que vale é o que vem logo antes da primeira barra */*"
+        },
+        {
+          "titulo": "Este link é de *qual* site?",
+          "destaque": "loja.com.br.*ofertas-bf.top*",
+          "texto": "É de *ofertas-bf.top*. O \"loja.com.br\" no começo é só disfarce."
+        },
+        {
+          "titulo": "3 · Na dúvida, *digite você.*",
+          "texto": "Escreva o endereço da loja no navegador ou abra o app oficial."
+        },
+        {
+          "titulo": "Salve e mande para quem vai *comprar amanhã.*",
+          "texto": "Dicas de segurança toda semana no @iteasesolucoes."
+        }
+      ],
+      "legenda": "Black Friday é amanhã, e os links falsos já estão circulando.\n\nO teste de 3 segundos:\n1. Passe o mouse no link (no celular, segure o dedo).\n2. Leia o final do endereço, logo antes da primeira barra.\n3. Na dúvida, digite o endereço da loja você mesmo ou use o app oficial.\n\nSalve este vídeo e mande para quem vai aproveitar as ofertas.",
+      "hashtags": [
+        "#blackfriday",
+        "#golpe",
+        "#segurancadigital",
+        "#segurancadainformacao",
+        "#dicasdeti",
+        "#indaiatuba",
+        "#campinas",
+        "#ti"
+      ]
+    }
+  ]
+}
