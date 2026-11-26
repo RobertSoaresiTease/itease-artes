@@ -217,7 +217,7 @@ function slideHTML(s,i,n,post){
   const est=ESTILOS.includes(s.estilo)?s.estilo:ESTILOS.includes(post.estilo)?post.estilo:"escuro";
   const P=PAL[est];const pano=!!post.panoramico&&n>1;
   const tag=s.tag||("// "+(post.pilar||"iTease"));
-  const pg=n>1?`<span class="pg">${String(i+1).padStart(2,"0")} / ${String(n).padStart(2,"0")}</span>`:`<span class="pg">@iteasesolucoes</span>`;
+  const pg=n>1?`<span class="pg">${String(i+1).padStart(2,"0")} / ${String(n).padStart(2,"0")}</span>`:`<span class="pg">${esc(post.perfil||"@iteasesolucoes")}</span>`;
   let bd="";
   const t=s.tipo||"capa";
   const gm=s.grande?String(s.grande).match(/^(\S+)\s*(.*)$/):null;
@@ -232,7 +232,7 @@ function slideHTML(s,i,n,post){
       (s.destaque?`<div class="card"><div class="ic">!</div><div>${hl(s.destaque)}</div></div>`:"");
   }else{ // cta
     bd=`<div class="bar2"></div><h2>${hl(s.titulo)}</h2>${s.texto?`<div class="sb">${hl(s.texto)}</div>`:""}<div class="btnc">${esc(s.cta||"Agende um diagnóstico gratuito")}</div>
-      <div class="ct"><b>(19) 3935-6234</b><br>www.itease.com.br · @iteasesolucoes</div>`;
+      <div class="ct"><b>${esc(post.telefone||"(19) 3935-6234")}</b><br>${esc(post.contato||"www.itease.com.br · @iteasesolucoes")}</div>`;
   }
   const ill=s.ilustracao?`<div class="ill">${illSVG(s.ilustracao,P)}</div>`:"";
   const light=est==="claro"||est==="gradiente";
